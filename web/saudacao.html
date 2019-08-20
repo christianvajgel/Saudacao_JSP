@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Entrar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="formulario" action="saudacao.jsp" method="post">
+            <table>
+                <tr>
+                    <th>
+                        <select name = "uf">
+                        <option value="Sr" selected="">Sr</option> 
+                        <option value="Sra">Sra</option>
+                        <option value="Srta">Srta</option>
+                        </select><br>    
+                    </th>
+                    <th>
+                        <input required type="text" name="nome">
+                    </th>
+                </tr>   
+            </table>
+            <input type="submit" value="Enviar" name="enviar" />
+        </form>
+    </body>
+</html>
